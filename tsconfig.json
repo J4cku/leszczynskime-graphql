@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "lib": [
+      "es2020",
+      "ESNext.Promise",
+      "ESNext.String",
+      "ESNext.BigInt",
+      "dom"
+    ],
+    "target": "ES2020",
+    "declaration": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./types",
+      "node_modules/@types"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/__tests__/**"
+  ]
+}
